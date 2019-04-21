@@ -1,0 +1,52 @@
+前端部分：
+	（一）三种用户公用界面：
+		1.登陆界面：log.html
+	（二）病人相关界面：
+		1.注册界面：reg_patient.html
+		2.主页：index.html&index_main.html
+		主页-建议详情：mine_advise_detail.html
+		主页-最新资讯：index_zx.html
+		3.睡眠：sleep_head.html&sleep.html
+		睡眠-开始睡眠：sleep_begin.html
+		睡眠-开始睡眠-白噪音：sleep_noise.html
+		睡眠-开始睡眠-睡眠报告：sleep_report.html
+		睡眠-开始睡眠-睡眠报告-历史睡眠报告：sleep_history_report.html&sleep_report_box.html
+		睡眠-闹钟：sleep_setting.html&sleep_add_alarm.html
+		4.血糖：blood_main_head.html&blood_main.html
+		血糖输入：blood_value.html
+		服药提醒设置：blood_meals.html
+		统计：blood_data.html
+		设置：blood_setting.html
+		设置-血糖范围：blood_range.html
+		5.我的：mine_head.html&mine.html
+		我的信息：mine_detail.html
+		家属信息：mine_family_inf.html
+		医生信息：mine_doctor_inf.html
+
+	（三）医生相关界面：
+		1.注册界面：reg_doctor.html
+		2.异常管理：doctor_abnormal_head.html&doctor_abnormal.html
+		   查看病人具体信息：doctor_patient_detail.html
+		3.病人管理：doctor_patient_head.html&doctor_patient.html
+		4.消息：doctor_msg_head.html&doctor_msg.html
+		5.我的：doctor_mine_head.html&doctor_mine.html
+	（四）亲属相关界面：
+		1.注册界面：reg_family.html
+		2.主页：family_main_head.html&family_main.html
+		3.消息：fdoc_main_head.html&fdoc_main.html
+		4.我的：fmine_head.html&fmine.html
+后台服务器：
+		1.注册界面：regs.php
+		2.登录：login.php
+		3.血糖等数据存储：store_data.php
+		4.睡眠计时部分：begin.php、end.php、showtime.php
+                                5.制作图表：chartforp.php
+                                6.用户数据展示部分：show_p_info.php、show_d_info.php、show_f_info.php
+                                7.病人信息汇总：showpatient.php
+                                8.监测是否摔倒 ：slipdata.php、familywatch.php
+                                9.监测睡眠 ：sleepdata.php、returnscore.php
+算法层：     
+                                1.数据预处理：dataPre.py
+                                2.数据分析：fallSvc.py、SleepSvc.py
+                                3.训练集：sxtrain.csv、xtrain.csv
+
